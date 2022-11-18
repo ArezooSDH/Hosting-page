@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Nunito Regular";
+  /* direction: rtl; */
+}
+
+.content {
+  background-color: #aaa;
+  width: 100%;
+  min-height: 100px;
+  height: 100%;
+  padding: 10px 0;
+  padding-right: 40px;
+  font-size: 20px;
+}
+/* 
+#akbar{
+    position: relative;
+}
+
+#akbar::before {
+    position: absolute;
+    right: -15px;
+    top: -5px;
+    display: block;
+    content: '';
+    border-radius: 20px;
+    width: 5px;
+    height: 31px;
+    background-color: #2568cc;
+} */
+
+
+
+/* #akbar{
+    position: relative;
+}
+
+#akbar::after{
+    position: absolute;
+    content: '';
+    display: block;
+    right: -1px;
+    width: 1px;
+    height: 4px;
+    background-color: seagreen;
+    bottom: -9px;
+    border-radius: 75px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#akbar:hover::after{
+    transition: 0.5s;
+    width: 75px;
+    opacity: 1;
+} */
